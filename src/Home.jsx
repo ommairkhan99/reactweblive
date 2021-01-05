@@ -1,0 +1,24 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+import web from "../src/images/img1.svg";
+import Common from "./Common";
+
+
+const Home = () => {
+
+    return(
+    <>
+    <Common 
+        name = "Grow your business with " 
+        imgsrc={web}
+        visit="/services"
+        btname="Let's get started!"
+    />
+    </>
+    );
+
+};
+
+
+
+export default Home;
